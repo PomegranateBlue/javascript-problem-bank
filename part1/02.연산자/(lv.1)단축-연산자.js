@@ -22,7 +22,8 @@
 
 let increment = 0;
 let decrement = 0;
-
+increment++;
+decrement--;
 const num1 = 10;
 
 let add = 0;
