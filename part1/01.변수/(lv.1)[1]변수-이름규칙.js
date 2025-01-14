@@ -10,11 +10,13 @@
  */
 
 // 잘못된 변수 이름들을 주석 처리하고, 올바른 변수 이름만 export 에 추가하세요.
-let 1stVariable;  
-let _underscore;  
-let $dollarSign;  
-let var;          
-let camelCase;    
+//let 1stVariable;
+//변수명 앞자리에 숫자가 올 수 없다.
+let _underscore;
+let $dollarSign;
+//let var;
+//변수명에 예약어 사용금지
+let camelCase;
 
 // TODO: **올바른** 변수 이름만 export 에 추가하세요.
 // 예시: export { 1stVariable, _underscore, $dollarSign, var, camelCase };

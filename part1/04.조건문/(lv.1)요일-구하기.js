@@ -11,6 +11,25 @@
  */
 function getDayName(dayNumber) {
   // TODO
+  const week = ["월", "화", "수", "목", "금", "토", "일"];
+  switch (dayNumber) {
+    case 1:
+      return week[0];
+    case 2:
+      return week[1];
+    case 3:
+      return week[2];
+    case 4:
+      return week[3];
+    case 5:
+      return week[4];
+    case 6:
+      return week[5];
+    case 7:
+      return week[6];
+    default:
+      return "Invalid";
+  }
 }
 
 // export 를 수정하지 마세요.
