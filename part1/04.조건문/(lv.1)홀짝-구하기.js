@@ -10,9 +10,9 @@
 
 function isEvenOrOdd(num) {
   // TODO
-  if (num & (2 === 1)) {
+  if (num % 2 === 1) {
     return "Odd";
-  } else {
+  } else if (num % 2 !== 1) {
     return "Even";
   }
 }

@@ -12,7 +12,7 @@ function square(x) {
 
 // TODO
 let cube = function (num) {
-  return num ** 3;
+  return Math.pow(num, 3);
 };
 
 // export 를 수정하지 마세요.
