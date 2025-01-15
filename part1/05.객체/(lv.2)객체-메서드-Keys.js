@@ -10,7 +10,9 @@
  */
 function getObjectKeys(obj) {
   // TODO
+  return Object.keys(obj);
 }
-
+// const obj1 = { name: "Alice", age: 25 };
+// console.log(Object.keys(obj1));
 // export를 수정하지 마세요.
 export { getObjectKeys };
