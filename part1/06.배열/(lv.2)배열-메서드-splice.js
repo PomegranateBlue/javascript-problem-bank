@@ -16,6 +16,7 @@
  */
 function removeAndInsert(arr, start, deleteCount, ...items) {
   // TODO
+  return arr.splice(start, deleteCount, ...items);
 }
 
 // export를 수정하지 마세요.
