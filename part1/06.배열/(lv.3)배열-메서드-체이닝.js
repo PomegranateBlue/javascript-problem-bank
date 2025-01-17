@@ -16,11 +16,20 @@
 
 function get20sEmail(arr) {
   // TODO: 배열 메서드 체이닝을 사용해 20대 사람의 email 배열을 반환하세요.
-  arr
+  return arr
     .filter((element) => element.age >= 20 && element.age < 30)
-    .sort((a, b) => a - b)
+    .sort((a, b) => b - a)
     .map((element) => element.email);
 }
-
+const testArr = [
+  { name: "Alice", age: 21, email: "alice@example.com" },
+  { name: "Bob", age: 25, email: "bob@example.com" },
+];
 // export를 수정하지 마세요.
+console.log(
+  testArr
+    .filter((element) => element.age >= 20 && element.age < 30)
+    .sort((a, b) => b - a)
+    .map((element) => element.email)
+);
 export { get20sEmail };

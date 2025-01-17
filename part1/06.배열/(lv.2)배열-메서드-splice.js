@@ -16,7 +16,9 @@
  */
 function removeAndInsert(arr, start, deleteCount, ...items) {
   // TODO
-  return arr.splice(start, deleteCount, ...items);
+  arr.splice(start, deleteCount, ...items);
+  return arr;
+  //바로 반환하는 형태는 옳지않다. 메서드를 바로 적용하면 메서드의 반환값을 반환하기때문
 }
 
 // export를 수정하지 마세요.

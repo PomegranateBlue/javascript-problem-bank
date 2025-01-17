@@ -10,7 +10,8 @@
  */
 function sortNumbers(arr) {
   // TODO
-  return arr.sort((a, b) => a - b);
+  const result = arr.sort((a, b) => a - b);
+  return result;
 }
 
 // export를 수정하지 마세요.

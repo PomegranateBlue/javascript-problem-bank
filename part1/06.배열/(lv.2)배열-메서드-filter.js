@@ -17,7 +17,7 @@ function filterEven(arr) {
 
 // TODO: filterOdd 함수를 작성하세요.
 function filterOdd(arr) {
-  return arr.filter((element) => element % 2 !== 1);
+  return arr.filter((element) => element % 2 !== 0);
 }
 
 // export를 수정하지 마세요.

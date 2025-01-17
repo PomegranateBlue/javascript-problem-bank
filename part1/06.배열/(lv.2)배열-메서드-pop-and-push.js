@@ -15,13 +15,12 @@
  */
 
 function manageTaskList(tasks, newTask) {
-  const result = [];
-  result = tasks.pop();
-  result = tasks.push(newTask);
-  if (result.length !== 0) {
-    result[0] = "Updated Task";
+  tasks.pop();
+  tasks.push(newTask);
+  if (tasks.length >= 0) {
+    tasks[0] = "Updated Task";
   }
-  return result;
+  return tasks;
 }
 
 // export를 수정하지 마세요.
