@@ -13,7 +13,7 @@ function factorial(n) {
   if (n <= 0) {
     return 0;
   } else {
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i <= n; i++) {
       sum += i;
     }
     return sum;

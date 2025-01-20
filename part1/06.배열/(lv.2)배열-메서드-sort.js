@@ -10,7 +10,8 @@
  */
 function sortNumbers(arr) {
   // TODO
-  const result = arr.sort((a, b) => a - b);
+  let result = [...arr];
+  result = result.sort((a, b) => a - b);
   return result;
 }
 

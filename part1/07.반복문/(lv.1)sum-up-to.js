@@ -15,10 +15,8 @@ function sumUpTo(n) {
   if (n <= 0) {
     return 0;
   }
-  while (n >= 1) {
-    sum = n(n + 1) / 2;
-  }
-  return sum;
+  return 
+  
 }
 
 // export를 수정하지 마세요.
