@@ -22,10 +22,8 @@
 
 // TODO: getUsers 함수를 작성하세요.
 async function getUsers(fetchUsers) {
-  const result = (await fetchUsers)
-    .filter((element) => element.name)
-    .map((element) => element);
-  return result;
+  const result = await fetchUsers();
+  return result.map((data) => data.name);
 }
 
 // export를 수정하지 마세요.
