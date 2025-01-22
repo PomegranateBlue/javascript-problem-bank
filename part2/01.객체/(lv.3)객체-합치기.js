@@ -16,7 +16,22 @@
  * @returns {object}
  */
 
-function mergeObjects(...objs) {}
+function mergeObjects(...objs) {
+  let result = {};
+  if (objs.length === 0) {
+    return {};
+  }
+  return objs.reduce((acc, curr) => {
+    return (result = { ...acc, ...curr });
+  }, {});
+}
+// const a = { x: 1, y: 2 };
+// const b = { y: 3, z: 4 };
+// const c = { x: 99 };
 
+//레스트 파라미터의 사용
+//문제에서는 여러 개의 객체를 받는다고 하는데 매개변수로는 하나의 값만 받고있다.
 // export를 수정하지 마세요.
+//매개변수로 여러 개의 객체를 받는다면 중첩 구조로 받는다
+//[{a:1},{b:1},{c:1}] 이런 식으로로
 export { mergeObjects };
