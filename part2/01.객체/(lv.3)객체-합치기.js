@@ -25,9 +25,6 @@ function mergeObjects(...objs) {
     return (result = { ...acc, ...curr });
   }, {});
 }
-// const a = { x: 1, y: 2 };
-// const b = { y: 3, z: 4 };
-// const c = { x: 99 };
 
 //레스트 파라미터의 사용
 //문제에서는 여러 개의 객체를 받는다고 하는데 매개변수로는 하나의 값만 받고있다.
